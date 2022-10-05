@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+      animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -30,9 +30,42 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
+
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
+}
+
+.image-upload {
+  width: 120px !important;
+  height: 120px !important;
+  font-size: 100px;
+  text-align: right;
+  min-width: 0 !important;
+  outline: none;
+  background: rgb(0, 0, 0);
+  cursor: inherit;
+  display: block !important;
+  border-radius: 50% !important;
+  cursor: pointer;
+  position: absolute;
+  margin: 0 !important;
+  z-index: -1;
+}
+
+.image-upload-wrapper {
+  margin-top: 10px;
+  position: inherit;
+  width: 200px !important;
+  height: 60px !important;
+  font-size: 40px;
+  text-align: center;
+  min-width: 0 !important;
+  outline: none;
+  cursor: inherit;
+  display: block !important;
+  border-radius: 0% !important;
+  cursor: pointer;
 }
